@@ -149,6 +149,7 @@ public:
             if(row == num - 1){
                 Export();
                 // print();
+                unPut(row, i);
             }else{
                 solve(row + 1);
                 unPut(row, i);
